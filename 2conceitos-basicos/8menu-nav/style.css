@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#open {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 5px;
+    float: right;
+}
+#menu {
+    width: 0px;
+    height: 100vh;
+    background-color: #ccc;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all ease .5s;
+    position: fixed;
+    top: 40px;
+    right: 10px;
+}
+#menu ul, 
+#menu li {
+    padding: 0;
+    list-style: none;
+}
+#menu li {
+    display: block;
+    padding: 10px;
+    color: #555;
+    cursor: pointer;
+}
+#menu li:hover {
+    background-color: #ddd;
+}
+.menuOpen {
+    width: 200px !important;
+}

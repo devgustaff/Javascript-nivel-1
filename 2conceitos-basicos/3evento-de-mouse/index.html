@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evento de clique</title>
+</head>
+
+<body>
+    <h1 
+        id="titulo" 
+        onmouseover="this.innerHTML = 'Passou o mouse!'" 
+        onmouseout="this.innerHTML = 'Tirou o mouse';">
+        Titulo
+    </h1>
+    <button onclick="clicou();">Clique em mim</button><br><br>
+    <button onclick="this.innerHTML = 'clicou'">Clique aqui</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
